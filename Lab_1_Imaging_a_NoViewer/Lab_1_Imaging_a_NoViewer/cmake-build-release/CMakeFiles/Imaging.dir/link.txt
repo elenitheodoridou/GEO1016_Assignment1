@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/Imaging.dir/main.cpp.o -o bin/Imaging  lib/libeasy3d_core.a lib/libeasy3d_util.a -lpthread lib/lib3rd_glog.a 

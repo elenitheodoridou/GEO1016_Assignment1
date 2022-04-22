@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d
+# Install script for directory: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/core/cmake_install.cmake")
-  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/fileio/cmake_install.cmake")
-  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/util/cmake_install.cmake")
-  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/viewer/cmake_install.cmake")
-  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/optimizer/cmake_install.cmake")
+  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/core/cmake_install.cmake")
+  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/fileio/cmake_install.cmake")
+  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/util/cmake_install.cmake")
+  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/viewer/cmake_install.cmake")
+  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/optimizer/cmake_install.cmake")
 
 endif()
 

@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer
+CMAKE_SOURCE_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -109,18 +109,18 @@ list_install_components\fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src\\CMakeFiles\progress.marks
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\all
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles 0
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\clean
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : clean
 
 # The main clean target
@@ -129,30 +129,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\preinstall
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\preinstall
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : depend
 
 # Convenience name for target.
 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\rule:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\rule
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\rule
 
 # Convenience name for target.
@@ -161,9 +161,9 @@ depend:
 
 # fast build rule for target.
 3rd_glfw\fast:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : 3rd_glfw\fast
 
 context.obj: context.c.obj
@@ -171,9 +171,9 @@ context.obj: context.c.obj
 
 # target to build an object file
 context.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\context.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : context.c.obj
 
 context.i: context.c.i
@@ -181,9 +181,9 @@ context.i: context.c.i
 
 # target to preprocess a source file
 context.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\context.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : context.c.i
 
 context.s: context.c.s
@@ -191,9 +191,9 @@ context.s: context.c.s
 
 # target to generate assembly for a file
 context.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\context.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : context.c.s
 
 egl_context.obj: egl_context.c.obj
@@ -201,9 +201,9 @@ egl_context.obj: egl_context.c.obj
 
 # target to build an object file
 egl_context.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\egl_context.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : egl_context.c.obj
 
 egl_context.i: egl_context.c.i
@@ -211,9 +211,9 @@ egl_context.i: egl_context.c.i
 
 # target to preprocess a source file
 egl_context.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\egl_context.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : egl_context.c.i
 
 egl_context.s: egl_context.c.s
@@ -221,9 +221,9 @@ egl_context.s: egl_context.c.s
 
 # target to generate assembly for a file
 egl_context.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\egl_context.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : egl_context.c.s
 
 init.obj: init.c.obj
@@ -231,9 +231,9 @@ init.obj: init.c.obj
 
 # target to build an object file
 init.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\init.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : init.c.obj
 
 init.i: init.c.i
@@ -241,9 +241,9 @@ init.i: init.c.i
 
 # target to preprocess a source file
 init.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\init.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : init.c.i
 
 init.s: init.c.s
@@ -251,9 +251,9 @@ init.s: init.c.s
 
 # target to generate assembly for a file
 init.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\init.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : init.c.s
 
 input.obj: input.c.obj
@@ -261,9 +261,9 @@ input.obj: input.c.obj
 
 # target to build an object file
 input.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\input.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : input.c.obj
 
 input.i: input.c.i
@@ -271,9 +271,9 @@ input.i: input.c.i
 
 # target to preprocess a source file
 input.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\input.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : input.c.i
 
 input.s: input.c.s
@@ -281,9 +281,9 @@ input.s: input.c.s
 
 # target to generate assembly for a file
 input.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\input.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : input.c.s
 
 monitor.obj: monitor.c.obj
@@ -291,9 +291,9 @@ monitor.obj: monitor.c.obj
 
 # target to build an object file
 monitor.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\monitor.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : monitor.c.obj
 
 monitor.i: monitor.c.i
@@ -301,9 +301,9 @@ monitor.i: monitor.c.i
 
 # target to preprocess a source file
 monitor.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\monitor.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : monitor.c.i
 
 monitor.s: monitor.c.s
@@ -311,9 +311,9 @@ monitor.s: monitor.c.s
 
 # target to generate assembly for a file
 monitor.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\monitor.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : monitor.c.s
 
 osmesa_context.obj: osmesa_context.c.obj
@@ -321,9 +321,9 @@ osmesa_context.obj: osmesa_context.c.obj
 
 # target to build an object file
 osmesa_context.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\osmesa_context.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : osmesa_context.c.obj
 
 osmesa_context.i: osmesa_context.c.i
@@ -331,9 +331,9 @@ osmesa_context.i: osmesa_context.c.i
 
 # target to preprocess a source file
 osmesa_context.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\osmesa_context.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : osmesa_context.c.i
 
 osmesa_context.s: osmesa_context.c.s
@@ -341,9 +341,9 @@ osmesa_context.s: osmesa_context.c.s
 
 # target to generate assembly for a file
 osmesa_context.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\osmesa_context.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : osmesa_context.c.s
 
 vulkan.obj: vulkan.c.obj
@@ -351,9 +351,9 @@ vulkan.obj: vulkan.c.obj
 
 # target to build an object file
 vulkan.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\vulkan.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : vulkan.c.obj
 
 vulkan.i: vulkan.c.i
@@ -361,9 +361,9 @@ vulkan.i: vulkan.c.i
 
 # target to preprocess a source file
 vulkan.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\vulkan.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : vulkan.c.i
 
 vulkan.s: vulkan.c.s
@@ -371,9 +371,9 @@ vulkan.s: vulkan.c.s
 
 # target to generate assembly for a file
 vulkan.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\vulkan.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : vulkan.c.s
 
 wgl_context.obj: wgl_context.c.obj
@@ -381,9 +381,9 @@ wgl_context.obj: wgl_context.c.obj
 
 # target to build an object file
 wgl_context.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\wgl_context.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : wgl_context.c.obj
 
 wgl_context.i: wgl_context.c.i
@@ -391,9 +391,9 @@ wgl_context.i: wgl_context.c.i
 
 # target to preprocess a source file
 wgl_context.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\wgl_context.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : wgl_context.c.i
 
 wgl_context.s: wgl_context.c.s
@@ -401,9 +401,9 @@ wgl_context.s: wgl_context.c.s
 
 # target to generate assembly for a file
 wgl_context.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\wgl_context.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : wgl_context.c.s
 
 win32_init.obj: win32_init.c.obj
@@ -411,9 +411,9 @@ win32_init.obj: win32_init.c.obj
 
 # target to build an object file
 win32_init.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_init.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_init.c.obj
 
 win32_init.i: win32_init.c.i
@@ -421,9 +421,9 @@ win32_init.i: win32_init.c.i
 
 # target to preprocess a source file
 win32_init.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_init.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_init.c.i
 
 win32_init.s: win32_init.c.s
@@ -431,9 +431,9 @@ win32_init.s: win32_init.c.s
 
 # target to generate assembly for a file
 win32_init.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_init.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_init.c.s
 
 win32_joystick.obj: win32_joystick.c.obj
@@ -441,9 +441,9 @@ win32_joystick.obj: win32_joystick.c.obj
 
 # target to build an object file
 win32_joystick.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_joystick.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_joystick.c.obj
 
 win32_joystick.i: win32_joystick.c.i
@@ -451,9 +451,9 @@ win32_joystick.i: win32_joystick.c.i
 
 # target to preprocess a source file
 win32_joystick.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_joystick.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_joystick.c.i
 
 win32_joystick.s: win32_joystick.c.s
@@ -461,9 +461,9 @@ win32_joystick.s: win32_joystick.c.s
 
 # target to generate assembly for a file
 win32_joystick.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_joystick.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_joystick.c.s
 
 win32_monitor.obj: win32_monitor.c.obj
@@ -471,9 +471,9 @@ win32_monitor.obj: win32_monitor.c.obj
 
 # target to build an object file
 win32_monitor.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_monitor.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_monitor.c.obj
 
 win32_monitor.i: win32_monitor.c.i
@@ -481,9 +481,9 @@ win32_monitor.i: win32_monitor.c.i
 
 # target to preprocess a source file
 win32_monitor.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_monitor.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_monitor.c.i
 
 win32_monitor.s: win32_monitor.c.s
@@ -491,9 +491,9 @@ win32_monitor.s: win32_monitor.c.s
 
 # target to generate assembly for a file
 win32_monitor.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_monitor.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_monitor.c.s
 
 win32_thread.obj: win32_thread.c.obj
@@ -501,9 +501,9 @@ win32_thread.obj: win32_thread.c.obj
 
 # target to build an object file
 win32_thread.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_thread.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_thread.c.obj
 
 win32_thread.i: win32_thread.c.i
@@ -511,9 +511,9 @@ win32_thread.i: win32_thread.c.i
 
 # target to preprocess a source file
 win32_thread.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_thread.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_thread.c.i
 
 win32_thread.s: win32_thread.c.s
@@ -521,9 +521,9 @@ win32_thread.s: win32_thread.c.s
 
 # target to generate assembly for a file
 win32_thread.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_thread.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_thread.c.s
 
 win32_time.obj: win32_time.c.obj
@@ -531,9 +531,9 @@ win32_time.obj: win32_time.c.obj
 
 # target to build an object file
 win32_time.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_time.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_time.c.obj
 
 win32_time.i: win32_time.c.i
@@ -541,9 +541,9 @@ win32_time.i: win32_time.c.i
 
 # target to preprocess a source file
 win32_time.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_time.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_time.c.i
 
 win32_time.s: win32_time.c.s
@@ -551,9 +551,9 @@ win32_time.s: win32_time.c.s
 
 # target to generate assembly for a file
 win32_time.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_time.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_time.c.s
 
 win32_window.obj: win32_window.c.obj
@@ -561,9 +561,9 @@ win32_window.obj: win32_window.c.obj
 
 # target to build an object file
 win32_window.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_window.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_window.c.obj
 
 win32_window.i: win32_window.c.i
@@ -571,9 +571,9 @@ win32_window.i: win32_window.c.i
 
 # target to preprocess a source file
 win32_window.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_window.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_window.c.i
 
 win32_window.s: win32_window.c.s
@@ -581,9 +581,9 @@ win32_window.s: win32_window.c.s
 
 # target to generate assembly for a file
 win32_window.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\win32_window.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : win32_window.c.s
 
 window.obj: window.c.obj
@@ -591,9 +591,9 @@ window.obj: window.c.obj
 
 # target to build an object file
 window.c.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\window.c.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : window.c.obj
 
 window.i: window.c.i
@@ -601,9 +601,9 @@ window.i: window.c.i
 
 # target to preprocess a source file
 window.c.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\window.c.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : window.c.i
 
 window.s: window.c.s
@@ -611,9 +611,9 @@ window.s: window.c.s
 
 # target to generate assembly for a file
 window.c.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\window.c.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : window.c.s
 
 # Help Target
@@ -684,8 +684,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\glfw\src
 .PHONY : cmake_check_build_system
 

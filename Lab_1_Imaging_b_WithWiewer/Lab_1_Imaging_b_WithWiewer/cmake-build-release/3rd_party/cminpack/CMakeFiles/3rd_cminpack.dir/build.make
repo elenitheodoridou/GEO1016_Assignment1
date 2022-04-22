@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer
+CMAKE_SOURCE_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 # Include any dependencies generated for this target.
 include 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\depend.make
@@ -57,1228 +57,1228 @@ include 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\chkder.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\chkder.c.obj: ..\3rd_party\cminpack\chkder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/chkder.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/chkder.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\chkder.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\chkder.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\chkder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/chkder.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\chkder.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\chkder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/chkder.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\chkder.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\chkder.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\enorm.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\enorm.c.obj: ..\3rd_party\cminpack\enorm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/enorm.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/enorm.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\enorm.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\enorm.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\enorm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/enorm.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\enorm.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\enorm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/enorm.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\enorm.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\enorm.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd1.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd1.c.obj: ..\3rd_party\cminpack\hybrd1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrd1.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrd1.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrd1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrd1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/hybrd1.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\hybrd1.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/hybrd1.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrd1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrd1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj.c.obj: ..\3rd_party\cminpack\hybrj.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrj.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrj.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrj.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrj.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/hybrj.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\hybrj.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/hybrj.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrj.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrj.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif1.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif1.c.obj: ..\3rd_party\cminpack\lmdif1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmdif1.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmdif1.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmdif1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmdif1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmdif1.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmdif1.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmdif1.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmdif1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmdif1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr1.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr1.c.obj: ..\3rd_party\cminpack\lmstr1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmstr1.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmstr1.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmstr1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmstr1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmstr1.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmstr1.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmstr1.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmstr1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmstr1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrfac.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrfac.c.obj: ..\3rd_party\cminpack\qrfac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qrfac.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qrfac.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qrfac.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qrfac.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrfac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/qrfac.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\qrfac.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrfac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/qrfac.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qrfac.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qrfac.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1updt.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1updt.c.obj: ..\3rd_party\cminpack\r1updt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/r1updt.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/r1updt.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\r1updt.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\r1updt.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1updt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/r1updt.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\r1updt.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1updt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/r1updt.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\r1updt.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\r1updt.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dogleg.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dogleg.c.obj: ..\3rd_party\cminpack\dogleg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/dogleg.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/dogleg.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\dogleg.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\dogleg.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dogleg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/dogleg.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\dogleg.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dogleg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/dogleg.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\dogleg.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\dogleg.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac1.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac1.c.obj: ..\3rd_party\cminpack\fdjac1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/fdjac1.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/fdjac1.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\fdjac1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\fdjac1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/fdjac1.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\fdjac1.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/fdjac1.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\fdjac1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\fdjac1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd.c.obj: ..\3rd_party\cminpack\hybrd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrd.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrd.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrd.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrd.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/hybrd.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\hybrd.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/hybrd.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrd.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrd.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder1.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder1.c.obj: ..\3rd_party\cminpack\lmder1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmder1.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmder1.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmder1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmder1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmder1.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmder1.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmder1.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmder1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmder1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif.c.obj: ..\3rd_party\cminpack\lmdif.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmdif.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmdif.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmdif.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmdif.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmdif.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmdif.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmdif.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmdif.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmdif.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr.c.obj: ..\3rd_party\cminpack\lmstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmstr.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmstr.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmstr.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmstr.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmstr.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmstr.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmstr.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmstr.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmstr.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrsolv.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrsolv.c.obj: ..\3rd_party\cminpack\qrsolv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qrsolv.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qrsolv.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qrsolv.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qrsolv.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrsolv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/qrsolv.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\qrsolv.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrsolv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/qrsolv.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qrsolv.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qrsolv.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\rwupdt.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\rwupdt.c.obj: ..\3rd_party\cminpack\rwupdt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/rwupdt.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/rwupdt.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\rwupdt.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\rwupdt.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\rwupdt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/rwupdt.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\rwupdt.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\rwupdt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/rwupdt.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\rwupdt.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\rwupdt.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dpmpar.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dpmpar.c.obj: ..\3rd_party\cminpack\dpmpar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/dpmpar.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/dpmpar.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\dpmpar.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\dpmpar.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dpmpar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/dpmpar.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\dpmpar.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dpmpar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/dpmpar.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\dpmpar.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\dpmpar.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac2.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac2.c.obj: ..\3rd_party\cminpack\fdjac2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/fdjac2.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/fdjac2.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\fdjac2.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\fdjac2.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/fdjac2.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\fdjac2.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/fdjac2.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\fdjac2.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\fdjac2.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj1.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj1.c.obj: ..\3rd_party\cminpack\hybrj1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrj1.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrj1.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrj1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrj1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/hybrj1.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\hybrj1.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/hybrj1.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrj1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrj1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder.c.obj: ..\3rd_party\cminpack\lmder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmder.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmder.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmder.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmder.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmder.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmder.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmder.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmder.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmder.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmpar.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmpar.c.obj: ..\3rd_party\cminpack\lmpar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmpar.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmpar.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmpar.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmpar.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmpar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmpar.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmpar.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmpar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmpar.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmpar.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmpar.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qform.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qform.c.obj: ..\3rd_party\cminpack\qform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qform.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qform.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qform.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qform.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/qform.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\qform.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/qform.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qform.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qform.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1mpyq.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1mpyq.c.obj: ..\3rd_party\cminpack\r1mpyq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/r1mpyq.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/r1mpyq.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\r1mpyq.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\r1mpyq.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1mpyq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/r1mpyq.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\r1mpyq.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1mpyq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/r1mpyq.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\r1mpyq.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\r1mpyq.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar.c.obj: ..\3rd_party\cminpack\covar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/covar.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/covar.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\covar.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\covar.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/covar.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\covar.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/covar.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\covar.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\covar.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar1.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar1.c.obj: ..\3rd_party\cminpack\covar1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/covar1.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/covar1.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\covar1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\covar1.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/covar1.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\covar1.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/covar1.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\covar1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar1.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\covar1.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar1.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\chkder_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\chkder_.c.obj: ..\3rd_party\cminpack\chkder_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/chkder_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/chkder_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\chkder_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\chkder_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\chkder_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/chkder_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\chkder_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\chkder_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/chkder_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\chkder_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\chkder_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\chkder_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\enorm_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\enorm_.c.obj: ..\3rd_party\cminpack\enorm_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/enorm_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/enorm_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\enorm_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\enorm_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\enorm_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/enorm_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\enorm_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\enorm_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/enorm_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\enorm_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\enorm_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\enorm_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd1_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd1_.c.obj: ..\3rd_party\cminpack\hybrd1_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrd1_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrd1_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrd1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrd1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd1_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/hybrd1_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\hybrd1_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd1_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/hybrd1_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrd1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrd1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj_.c.obj: ..\3rd_party\cminpack\hybrj_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrj_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrj_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrj_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrj_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/hybrj_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\hybrj_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/hybrj_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrj_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrj_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif1_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif1_.c.obj: ..\3rd_party\cminpack\lmdif1_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmdif1_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmdif1_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmdif1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmdif1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif1_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmdif1_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmdif1_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif1_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmdif1_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmdif1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmdif1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr1_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr1_.c.obj: ..\3rd_party\cminpack\lmstr1_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmstr1_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmstr1_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmstr1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmstr1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr1_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmstr1_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmstr1_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr1_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmstr1_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmstr1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmstr1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrfac_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrfac_.c.obj: ..\3rd_party\cminpack\qrfac_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qrfac_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qrfac_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qrfac_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qrfac_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrfac_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/qrfac_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\qrfac_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrfac_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/qrfac_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qrfac_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qrfac_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrfac_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1updt_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1updt_.c.obj: ..\3rd_party\cminpack\r1updt_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/r1updt_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/r1updt_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\r1updt_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\r1updt_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1updt_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/r1updt_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\r1updt_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1updt_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/r1updt_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\r1updt_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\r1updt_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1updt_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dogleg_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dogleg_.c.obj: ..\3rd_party\cminpack\dogleg_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/dogleg_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/dogleg_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\dogleg_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\dogleg_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dogleg_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/dogleg_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\dogleg_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dogleg_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/dogleg_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\dogleg_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\dogleg_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dogleg_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac1_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac1_.c.obj: ..\3rd_party\cminpack\fdjac1_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/fdjac1_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/fdjac1_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\fdjac1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\fdjac1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac1_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/fdjac1_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\fdjac1_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac1_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/fdjac1_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\fdjac1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\fdjac1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd_.c.obj: ..\3rd_party\cminpack\hybrd_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrd_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrd_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrd_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrd_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/hybrd_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\hybrd_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrd_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/hybrd_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrd_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrd_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrd_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder1_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder1_.c.obj: ..\3rd_party\cminpack\lmder1_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmder1_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmder1_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmder1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmder1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder1_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmder1_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmder1_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder1_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmder1_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmder1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmder1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif_.c.obj: ..\3rd_party\cminpack\lmdif_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmdif_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmdif_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmdif_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmdif_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmdif_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmdif_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmdif_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmdif_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmdif_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmdif_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmdif_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr_.c.obj: ..\3rd_party\cminpack\lmstr_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmstr_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmstr_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmstr_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmstr_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmstr_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmstr_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmstr_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmstr_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmstr_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmstr_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmstr_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrsolv_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrsolv_.c.obj: ..\3rd_party\cminpack\qrsolv_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qrsolv_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qrsolv_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qrsolv_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qrsolv_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrsolv_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/qrsolv_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\qrsolv_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qrsolv_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/qrsolv_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qrsolv_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qrsolv_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qrsolv_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\rwupdt_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\rwupdt_.c.obj: ..\3rd_party\cminpack\rwupdt_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/rwupdt_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/rwupdt_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\rwupdt_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\rwupdt_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\rwupdt_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/rwupdt_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\rwupdt_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\rwupdt_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/rwupdt_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\rwupdt_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\rwupdt_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\rwupdt_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dpmpar_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dpmpar_.c.obj: ..\3rd_party\cminpack\dpmpar_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/dpmpar_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/dpmpar_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\dpmpar_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\dpmpar_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dpmpar_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/dpmpar_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\dpmpar_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\dpmpar_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/dpmpar_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\dpmpar_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\dpmpar_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\dpmpar_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac2_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac2_.c.obj: ..\3rd_party\cminpack\fdjac2_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/fdjac2_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/fdjac2_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\fdjac2_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\fdjac2_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac2_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/fdjac2_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\fdjac2_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\fdjac2_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/fdjac2_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\fdjac2_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\fdjac2_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\fdjac2_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj1_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj1_.c.obj: ..\3rd_party\cminpack\hybrj1_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrj1_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/hybrj1_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrj1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\hybrj1_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj1_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/hybrj1_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\hybrj1_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\hybrj1_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/hybrj1_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrj1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\hybrj1_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\hybrj1_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder_.c.obj: ..\3rd_party\cminpack\lmder_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmder_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmder_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmder_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmder_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmder_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmder_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmder_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmder_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmder_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmder_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmder_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmpar_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmpar_.c.obj: ..\3rd_party\cminpack\lmpar_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmpar_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/lmpar_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmpar_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\lmpar_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmpar_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/lmpar_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\lmpar_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\lmpar_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/lmpar_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmpar_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\lmpar_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\lmpar_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qform_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qform_.c.obj: ..\3rd_party\cminpack\qform_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qform_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/qform_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qform_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\qform_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qform_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/qform_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\qform_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\qform_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/qform_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qform_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\qform_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\qform_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1mpyq_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1mpyq_.c.obj: ..\3rd_party\cminpack\r1mpyq_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/r1mpyq_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/r1mpyq_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\r1mpyq_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\r1mpyq_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1mpyq_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/r1mpyq_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\r1mpyq_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1mpyq_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/r1mpyq_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\r1mpyq_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\r1mpyq_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\r1mpyq_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar_.c.obj: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\flags.make
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar_.c.obj: ..\3rd_party\cminpack\covar_.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/covar_.c.obj"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object 3rd_party/cminpack/CMakeFiles/3rd_cminpack.dir/covar_.c.obj"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\covar_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\3rd_cminpack.dir\covar_.c.obj /FdCMakeFiles\3rd_cminpack.dir\3rd_cminpack.pdb /FS -c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3rd_cminpack.dir/covar_.c.i"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_cminpack.dir\covar_.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3rd_cminpack.dir/covar_.c.s"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\covar_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar_.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_cminpack.dir\covar_.c.s /c C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack\covar_.c
 <<
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 # Object files for target 3rd_cminpack
 3rd_cminpack_OBJECTS = \
@@ -1386,25 +1386,25 @@ lib\3rd_cminpack.lib: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\r1mpyq_.c.o
 lib\3rd_cminpack.lib: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\covar_.c.obj
 lib\3rd_cminpack.lib: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\build.make
 lib\3rd_cminpack.lib: 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking C static library ..\..\lib\3rd_cminpack.lib"
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking C static library ..\..\lib\3rd_cminpack.lib"
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	$(CMAKE_COMMAND) -P CMakeFiles\3rd_cminpack.dir\cmake_clean_target.cmake
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:..\..\lib\3rd_cminpack.lib @CMakeFiles\3rd_cminpack.dir\objects1.rsp 
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 # Rule to build all files generated by this target.
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\build: lib\3rd_cminpack.lib
 .PHONY : 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\build
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\clean:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack
 	$(CMAKE_COMMAND) -P CMakeFiles\3rd_cminpack.dir\cmake_clean.cmake
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 .PHONY : 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\clean
 
 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\3rd_party\cminpack C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rd_party\cminpack\CMakeFiles\3rd_cminpack.dir\depend
 

@@ -1,58 +1,33 @@
-C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/sh -c "export CLION_IDE=TRUE && export Qt5_DIR='C:/Users/etheo/Software/Qt5.14.2/5.14.2/clang_64/lib/cmake/Qt5' && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release && /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G 'CodeBlocks - Unix Makefiles' /mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer"
--- The C compiler identification is GNU 9.4.0
--- The CXX compiler identification is GNU 9.4.0
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer
+-- The C compiler identification is MSVC 19.29.30136.0
+-- The CXX compiler identification is MSVC 19.29.30136.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Easy3D: I'am working on a 64-bit Linux
--- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so   
--- OpenGL libraries: /usr/lib/x86_64-linux-gnu/libGL.so;/usr/lib/x86_64-linux-gnu/libGLU.so
+-- Easy3D: I'am working on a 32-bit Windows
+-- Found OpenGL: opengl32   
+-- OpenGL libraries: opengl32;glu32
 -- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
--- Looking for pthread_create in pthreads
--- Looking for pthread_create in pthreads - not found
--- Looking for pthread_create in pthread
--- Looking for pthread_create in pthread - found
+-- Looking for pthread.h - not found
 -- Found Threads: TRUE  
--- Using X11 for window creation
--- Found X11: /usr/include   
--- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
--- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
--- Looking for gethostbyname
--- Looking for gethostbyname - found
--- Looking for connect
--- Looking for connect - found
--- Looking for remove
--- Looking for remove - found
--- Looking for shmat
--- Looking for shmat - found
--- Looking for IceConnectionNumber in ICE
--- Looking for IceConnectionNumber in ICE - found
--- Operating system is Linux
+-- Using Win32 for window creation
+-- Operating system is Windows
 -- Building static libraries.
 -- Looking for sqrt
--- Looking for sqrt - not found
--- Looking for sqrt in m
--- Looking for sqrt in m - found
+-- Looking for sqrt - found
 -- Checking for [cblas]
--- Includes found
 -- Checking for [cblas - atlas]
--- Includes found
 -- Checking for [blas]
--- Includes found
--- Looking for cblas_dgemm
--- Looking for cblas_dgemm - found
--- Libraries found
--- Found CBLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+-- Checking for [Accelerate]
+-- Checking for [vecLib]
+-- Could NOT find CBLAS (missing: CBLAS_LIBRARIES) 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release
+-- Build files have been written to: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release

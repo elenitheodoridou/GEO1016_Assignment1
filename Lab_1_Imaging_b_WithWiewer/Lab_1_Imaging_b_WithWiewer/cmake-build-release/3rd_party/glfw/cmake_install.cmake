@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw
+# Install script for directory: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-release/3rd_party/glfw/src/cmake_install.cmake")
+  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-release/3rd_party/glfw/src/cmake_install.cmake")
 
 endif()
 

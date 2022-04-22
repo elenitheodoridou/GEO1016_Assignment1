@@ -17,10 +17,10 @@ Imaging/CMakeFiles/Imaging.dir/imaging.cpp.obj
  ../easy3d/core/vec.h
  ../easy3d/util/logging.h
  ../easy3d/viewer/viewer.h
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/imaging.cpp
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/matrix.h
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/vector.h
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/viewer.h
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/imaging.cpp
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/matrix.h
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/vector.h
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/viewer.h
 Imaging/CMakeFiles/Imaging.dir/main.cpp.obj
  ../3rd_party/glog/logging.h
  ../easy3d/core/box.h
@@ -38,10 +38,10 @@ Imaging/CMakeFiles/Imaging.dir/main.cpp.obj
  ../easy3d/fileio/resources.h
  ../easy3d/util/logging.h
  ../easy3d/viewer/viewer.h
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/main.cpp
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/matrix.h
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/vector.h
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/viewer.h
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/main.cpp
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/matrix.h
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/vector.h
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/viewer.h
 Imaging/CMakeFiles/Imaging.dir/viewer.cpp.obj
  ../3rd_party/glew/include/GL/glew.h
  ../3rd_party/glfw/include/GLFW/glfw3.h
@@ -76,7 +76,7 @@ Imaging/CMakeFiles/Imaging.dir/viewer.cpp.obj
  ../easy3d/viewer/primitives.h
  ../easy3d/viewer/texture.h
  ../easy3d/viewer/viewer.h
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/matrix.h
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/vector.h
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/viewer.cpp
- C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/viewer.h
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/matrix.h
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/vector.h
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/viewer.cpp
+ C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/viewer.h

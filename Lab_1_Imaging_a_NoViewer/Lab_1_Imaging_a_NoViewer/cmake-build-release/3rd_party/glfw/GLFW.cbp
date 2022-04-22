@@ -4,217 +4,209 @@
 	<Project>
 		<Option title="GLFW"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;CMake Files\3rd_party\;CMake Files\3rd_party\glew\;CMake Files\3rd_party\glog\;CMake Files\3rd_party\cminpack\;CMake Files\3rd_party\cminpack\cmake\;CMake Files\3rd_party\glfw\;CMake Files\3rd_party\glfw\src\;CMake Files\easy3d\;CMake Files\easy3d\core\;CMake Files\easy3d\fileio\;CMake Files\easy3d\util\;CMake Files\easy3d\viewer\;CMake Files\easy3d\optimizer\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw"/>
+				<Option working_dir="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="3rd_glfw">
-				<Option output="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/lib/lib3rd_glfw.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src"/>
+				<Option output="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/lib/3rd_glfw.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
-					<Add directory="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/include"/>
-					<Add directory="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src"/>
-					<Add directory="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/include"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/Makefile&quot;  VERBOSE=1 3rd_glfw"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\src\Makefile VERBOSE=1 3rd_glfw"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\src\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="3rd_glfw/fast">
-				<Option output="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/lib/lib3rd_glfw.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src"/>
+				<Option output="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/lib/3rd_glfw.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
-					<Add directory="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/include"/>
-					<Add directory="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src"/>
-					<Add directory="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/include"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/Makefile&quot;  VERBOSE=1 3rd_glfw/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\src\Makefile VERBOSE=1 3rd_glfw/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\3rd_party\glfw\src\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/include/GLFW/glfw3.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/include/GLFW/glfw3.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/include/GLFW/glfw3native.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/include/GLFW/glfw3native.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/context.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/context.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/egl_context.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/egl_context.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/egl_context.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/egl_context.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/glx_context.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/init.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/glx_context.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/input.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/init.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/internal.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/input.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/mappings.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/internal.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/monitor.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/linux_joystick.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/osmesa_context.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/linux_joystick.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/osmesa_context.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/mappings.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/vulkan.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/monitor.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/wgl_context.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/osmesa_context.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/wgl_context.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/osmesa_context.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/win32_init.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/posix_thread.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/win32_joystick.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/posix_thread.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/win32_joystick.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/posix_time.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/win32_monitor.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/posix_time.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/win32_platform.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/vulkan.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/win32_thread.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/window.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/win32_time.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/x11_init.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/win32_window.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/x11_monitor.c">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/window.c">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/x11_platform.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/glfw_config.h">
 			<Option target="3rd_glfw"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/x11_window.c">
-			<Option target="3rd_glfw"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/xkb_unicode.c">
-			<Option target="3rd_glfw"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/xkb_unicode.h">
-			<Option target="3rd_glfw"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glfw/src/glfw_config.h">
-			<Option target="3rd_glfw"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glew/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glew/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\glew\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glog/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glog/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\glog\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/cmake/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/cmake/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/cmake/FindCBLAS.cmake">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/cmake/FindCBLAS.cmake">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/cmake/cminpack.pc.in">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/cmake/cminpack.pc.in">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/cmake/cminpack_utils.cmake">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/cminpack/cmake/cminpack_utils.cmake">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\src\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/glfw3.pc.in">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\src\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/glfw3Config.cmake.in">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\src\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/glfw_config.h.in">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\src\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\core\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/fileio/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/fileio/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\fileio\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/util/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/util/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\util\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/viewer/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/viewer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\viewer\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/optimizer/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/optimizer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\optimizer\"/>
 		</Unit>
 	</Project>

@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer
+CMAKE_SOURCE_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -109,18 +109,18 @@ list_install_components\fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer\\CMakeFiles\progress.marks
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) easy3d\optimizer\all
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles 0
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) easy3d\optimizer\clean
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : clean
 
 # The main clean target
@@ -129,30 +129,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) easy3d\optimizer\preinstall
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) easy3d\optimizer\preinstall
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : depend
 
 # Convenience name for target.
 easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\rule:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\rule
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\rule
 
 # Convenience name for target.
@@ -161,9 +161,9 @@ easy3d_optimizer: easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\rule
 
 # fast build rule for target.
 easy3d_optimizer\fast:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\build.make /nologo -$(MAKEFLAGS) easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\build
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : easy3d_optimizer\fast
 
 optimizer_lm.obj: optimizer_lm.cpp.obj
@@ -171,9 +171,9 @@ optimizer_lm.obj: optimizer_lm.cpp.obj
 
 # target to build an object file
 optimizer_lm.cpp.obj:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\build.make /nologo -$(MAKEFLAGS) easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\optimizer_lm.cpp.obj
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : optimizer_lm.cpp.obj
 
 optimizer_lm.i: optimizer_lm.cpp.i
@@ -181,9 +181,9 @@ optimizer_lm.i: optimizer_lm.cpp.i
 
 # target to preprocess a source file
 optimizer_lm.cpp.i:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\build.make /nologo -$(MAKEFLAGS) easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\optimizer_lm.cpp.i
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : optimizer_lm.cpp.i
 
 optimizer_lm.s: optimizer_lm.cpp.s
@@ -191,9 +191,9 @@ optimizer_lm.s: optimizer_lm.cpp.s
 
 # target to generate assembly for a file
 optimizer_lm.cpp.s:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\build.make /nologo -$(MAKEFLAGS) easy3d\optimizer\CMakeFiles\easy3d_optimizer.dir\optimizer_lm.cpp.s
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : optimizer_lm.cpp.s
 
 # Help Target
@@ -222,8 +222,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
+	cd C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-release\easy3d\optimizer
 .PHONY : cmake_check_build_system
 

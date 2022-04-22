@@ -8,26 +8,26 @@
 		<Option virtualFolders="CMake Files\;CMake Files\3rd_party\;CMake Files\3rd_party\glew\;CMake Files\3rd_party\glog\;CMake Files\3rd_party\cminpack\;CMake Files\3rd_party\cminpack\cmake\;CMake Files\3rd_party\glfw\;CMake Files\3rd_party\glfw\src\;CMake Files\Imaging\;CMake Files\easy3d\;CMake Files\easy3d\core\;CMake Files\easy3d\fileio\;CMake Files\easy3d\util\;CMake Files\easy3d\viewer\;CMake Files\easy3d\optimizer\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/core"/>
+				<Option working_dir="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/core"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="easy3d_core">
-				<Option output="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/lib/easy3d_core.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/core"/>
+				<Option output="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/lib/easy3d_core.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/core"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer"/>
-					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug"/>
-					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party"/>
-					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glog/.."/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glog/.."/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -37,23 +37,23 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 easy3d_core"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 easy3d_core"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="easy3d_core/fast">
-				<Option output="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/lib/easy3d_core.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/core"/>
+				<Option output="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/lib/easy3d_core.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug/easy3d/core"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer"/>
-					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug"/>
-					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party"/>
-					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glog/.."/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/cmake-build-debug"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party"/>
+					<Add directory="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glog/.."/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -63,155 +63,155 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 easy3d_core/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 easy3d_core/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\GEO1016_Assignment1\Lab_1_Imaging_b_WithWiewer\Lab_1_Imaging_b_WithWiewer\cmake-build-debug\easy3d\core\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/box.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/box.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/constant.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/constant.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/eigen_solver.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/eigen_solver.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/graph.cpp">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/graph.cpp">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/graph.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/graph.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/kdtree.cpp">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/kdtree.cpp">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/kdtree.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/kdtree.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/line.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/line.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/manifold_builder.cpp">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/manifold_builder.cpp">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/manifold_builder.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/manifold_builder.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/mat.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/mat.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/oriented_line.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/oriented_line.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/plane.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/plane.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/point_cloud.cpp">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/point_cloud.cpp">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/point_cloud.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/point_cloud.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/polygon.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/polygon.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/principal_axes.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/principal_axes.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/properties.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/properties.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/quat.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/quat.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/random.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/random.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/rect.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/rect.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/segment.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/segment.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/signal.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/signal.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/surface_mesh.cpp">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/surface_mesh.cpp">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/surface_mesh.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/surface_mesh.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/types.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/types.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/vec.h">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/vec.h">
 			<Option target="easy3d_core"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glew/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glew/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\glew\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glog/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glog/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\glog\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/cmake/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/cmake/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/cmake/FindCBLAS.cmake">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/cmake/FindCBLAS.cmake">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/cmake/cminpack.pc.in">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/cmake/cminpack.pc.in">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/cmake/cminpack_utils.cmake">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/cminpack/cmake/cminpack_utils.cmake">
 			<Option virtualFolder="CMake Files\3rd_party\cminpack\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/src/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/src/glfw3.pc.in">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/src/glfw3Config.cmake.in">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/src/glfw_config.h.in">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\3rd_party\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/Imaging/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Imaging\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/core/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\core\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/fileio/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/fileio/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\fileio\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/util/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/util/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\util\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/viewer/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/viewer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\viewer\"/>
 		</Unit>
-		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/optimizer/CMakeLists.txt">
+		<Unit filename="C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/easy3d/optimizer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\easy3d\optimizer\"/>
 		</Unit>
 	</Project>

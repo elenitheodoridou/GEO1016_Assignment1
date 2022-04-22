@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glew
+# Install script for directory: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_b_WithWiewer/Lab_1_Imaging_b_WithWiewer/3rd_party/glew
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

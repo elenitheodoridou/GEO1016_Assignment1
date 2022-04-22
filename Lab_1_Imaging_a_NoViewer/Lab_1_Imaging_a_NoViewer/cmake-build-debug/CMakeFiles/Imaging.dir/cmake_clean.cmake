@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Imaging.dir/main.cpp.o"
-  "bin/Imaging"
+  "CMakeFiles/Imaging.dir/main.cpp.obj"
+  "bin/Imaging.exe"
+  "bin/Imaging.exe.manifest"
   "bin/Imaging.pdb"
+  "lib/Imaging.lib"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -8,14 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glew/src/glew.c" "/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-debug/3rd_party/glew/CMakeFiles/3rd_glew.dir/src/glew.c.o"
+  "C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glew/src/glew.c" "C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-debug/3rd_party/glew/CMakeFiles/3rd_glew.dir/src/glew.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "MSVC")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
   "GLEW_NO_GLU"
   "GLEW_STATIC"
+  "_CRT_SECURE_NO_DEPRECATE"
+  "_CRT_SECURE_NO_WARNINGS"
   )
 
 # The include file search paths:

@@ -226,13 +226,13 @@ unordered_map
 easy3d/core/types.h
 -
 
-/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/graph.cpp
+C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/graph.cpp
 easy3d/core/graph.h
 -
 cmath
 -
 
-/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/kdtree.cpp
+C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/kdtree.cpp
 easy3d/core/kdtree.h
 -
 easy3d/core/point_cloud.h
@@ -240,19 +240,19 @@ easy3d/core/point_cloud.h
 nanoflann/nanoflann.hpp
 -
 
-/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/manifold_builder.cpp
+C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/manifold_builder.cpp
 easy3d/core/manifold_builder.h
 -
 easy3d/util/logging.h
 -
 
-/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/point_cloud.cpp
+C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/point_cloud.cpp
 easy3d/core/point_cloud.h
 -
 cmath
 -
 
-/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/surface_mesh.cpp
+C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/GEO1016_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/easy3d/core/surface_mesh.cpp
 easy3d/core/surface_mesh.h
 -
 easy3d/util/logging.h

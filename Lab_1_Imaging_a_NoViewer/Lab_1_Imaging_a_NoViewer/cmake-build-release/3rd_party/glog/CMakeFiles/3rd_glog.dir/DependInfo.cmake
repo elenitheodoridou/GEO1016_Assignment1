@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glog/logging.cc" "/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glog/CMakeFiles/3rd_glog.dir/logging.cc.o"
+  "C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/3rd_party/glog/logging.cc" "C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/3rd_party/glog/CMakeFiles/3rd_glog.dir/logging.cc.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

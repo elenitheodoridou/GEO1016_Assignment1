@@ -1,86 +1,13 @@
-Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_93bea/fast && /usr/bin/make  -f CMakeFiles/cmTC_93bea.dir/build.make CMakeFiles/cmTC_93bea.dir/build
-make[1]: Entering directory '/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_93bea.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_93bea.dir/src.c.o -c /mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_93bea
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93bea.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_93bea.dir/src.c.o -o cmTC_93bea 
-/usr/bin/ld: CMakeFiles/cmTC_93bea.dir/src.c.o: in function `main':
-src.c:(.text+0x46): undefined reference to `pthread_create'
-/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
-/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
-/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
-collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_93bea.dir/build.make:99: cmTC_93bea] Error 1
-make[1]: Leaving directory '/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp'
-make: *** [Makefile:127: cmTC_93bea/fast] Error 2
-
-
-Source file was:
-#include <pthread.h>
-
-static void* test_func(void* data)
-{
-  return data;
-}
-
-int main(void)
-{
-  pthread_t thread;
-  pthread_create(&thread, NULL, test_func, NULL);
-  pthread_detach(thread);
-  pthread_cancel(thread);
-  pthread_join(thread, NULL);
-  pthread_atfork(NULL, NULL, NULL);
-  pthread_exit(NULL);
-
-  return 0;
-}
-
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_5bde8/fast && /usr/bin/make  -f CMakeFiles/cmTC_5bde8.dir/build.make CMakeFiles/cmTC_5bde8.dir/build
-make[1]: Entering directory '/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5bde8.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5bde8.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5bde8
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bde8.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_5bde8.dir/CheckFunctionExists.c.o -o cmTC_5bde8  -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_5bde8.dir/build.make:99: cmTC_5bde8] Error 1
-make[1]: Leaving directory '/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp'
-make: *** [Makefile:127: cmTC_5bde8/fast] Error 2
-
-
-
-Determining if the function sqrt exists failed with the following output:
-Change Dir: /mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb40a/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb40a.dir/build.make CMakeFiles/cmTC_eb40a.dir/build
-make[1]: Entering directory '/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eb40a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqrt -o CMakeFiles/cmTC_eb40a.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c
-<command-line>: warning: conflicting types for built-in function ‘sqrt’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
-/usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
-    7 |   CHECK_FUNCTION_EXISTS(void);
-      |   ^~~~~~~~~~~~~~~~~~~~~
-/usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c:1:1: note: ‘sqrt’ is declared in header ‘<math.h>’
-  +++ |+#include <math.h>
-    1 | #ifdef CHECK_FUNCTION_EXISTS
-Linking C executable cmTC_eb40a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb40a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqrt -rdynamic CMakeFiles/cmTC_eb40a.dir/CheckFunctionExists.c.o -o cmTC_eb40a 
-/usr/bin/ld: CMakeFiles/cmTC_eb40a.dir/CheckFunctionExists.c.o: in function `main':
-CheckFunctionExists.c:(.text+0x14): undefined reference to `sqrt'
-collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_eb40a.dir/build.make:99: cmTC_eb40a] Error 1
-make[1]: Leaving directory '/mnt/c/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/Lab_1_Imaging_a_NoViewer/Lab_1_Imaging_a_NoViewer/cmake-build-release/CMakeFiles/CMakeTmp'
-make: *** [Makefile:127: cmTC_eb40a/fast] Error 2
+Run Build Command(s):nmake -f Makefile /nologo cmTC_49795\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_49795.dir\build.make /nologo -L                  CMakeFiles\cmTC_49795.dir\build
+Building C object CMakeFiles/cmTC_49795.dir/CheckIncludeFile.c.obj
+	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_49795.dir\CheckIncludeFile.c.obj.d --working-dir=C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Lab_1_Imaging_a_NoViewer\Lab_1_Imaging_a_NoViewer\cmake-build-release\CMakeFiles\CMakeTmp --filter-prefix="" -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @C:\Users\etheo\AppData\Local\Temp\nmF88.tmp
+NMAKE : fatal error U1077: '"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"' : return code '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
 
 
 
