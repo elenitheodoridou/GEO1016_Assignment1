@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\Users\T420\Desktop\2021-2022\Geomatics\Periode 4\GEO1016 Photogrammetry and 3D Computer Vision\A1_Calibration\A1_Calibration_Code"
+-- Easy3D: I'am working on a 32-bit Windows
+-- OpenGL libraries: opengl32;glu32
+-- Using Win32 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/T420/Desktop/2021-2022/Geomatics/Periode 4/GEO1016 Photogrammetry and 3D Computer Vision/A1_Calibration/A1_Calibration_Code/cmake-build-debug
