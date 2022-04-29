@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code
+# Install script for directory: C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/cmake_install.cmake")
-  include("C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/cmake-build-debug/easy3d/cmake_install.cmake")
-  include("C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/cmake-build-debug/Calibration/cmake_install.cmake")
+  include("C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/cmake_install.cmake")
+  include("C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/easy3d/cmake_install.cmake")
+  include("C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/Calibration/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

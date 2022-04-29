@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code"
+CMAKE_SOURCE_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,18 +76,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\3rd_party\glew\\CMakeFiles\progress.marks"
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\3rd_party\glew\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glew\all
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" 0
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glew\clean
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : clean
 
 # The main clean target
@@ -96,30 +96,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glew\preinstall
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glew\preinstall
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : depend
 
 # Convenience name for target.
 3rd_party\glew\CMakeFiles\3rd_glew.dir\rule:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glew\CMakeFiles\3rd_glew.dir\rule
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : 3rd_party\glew\CMakeFiles\3rd_glew.dir\rule
 
 # Convenience name for target.
@@ -128,9 +128,9 @@ depend:
 
 # fast build rule for target.
 3rd_glew\fast:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glew\CMakeFiles\3rd_glew.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glew\CMakeFiles\3rd_glew.dir\build
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : 3rd_glew\fast
 
 src\glew.obj: src\glew.c.obj
@@ -138,9 +138,9 @@ src\glew.obj: src\glew.c.obj
 
 # target to build an object file
 src\glew.c.obj:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glew\CMakeFiles\3rd_glew.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glew\CMakeFiles\3rd_glew.dir\src\glew.c.obj
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : src\glew.c.obj
 
 src\glew.i: src\glew.c.i
@@ -148,9 +148,9 @@ src\glew.i: src\glew.c.i
 
 # target to preprocess a source file
 src\glew.c.i:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glew\CMakeFiles\3rd_glew.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glew\CMakeFiles\3rd_glew.dir\src\glew.c.i
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : src\glew.c.i
 
 src\glew.s: src\glew.c.s
@@ -158,9 +158,9 @@ src\glew.s: src\glew.c.s
 
 # target to generate assembly for a file
 src\glew.c.s:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glew\CMakeFiles\3rd_glew.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glew\CMakeFiles\3rd_glew.dir\src\glew.c.s
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : src\glew.c.s
 
 # Help Target
@@ -186,8 +186,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glew
 .PHONY : cmake_check_build_system
 

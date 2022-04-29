@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/3rd_party/glog/logging.cc" "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glog/CMakeFiles/3rd_glog.dir/logging.cc.obj"
+  "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/3rd_party/glog/logging.cc" "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glog/CMakeFiles/3rd_glog.dir/logging.cc.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

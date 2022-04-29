@@ -226,13 +226,13 @@ unordered_map
 easy3d/core/types.h
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/core/graph.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/core/graph.cpp
 easy3d/core/graph.h
 -
 cmath
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/core/kdtree.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/core/kdtree.cpp
 easy3d/core/kdtree.h
 -
 easy3d/core/point_cloud.h
@@ -240,19 +240,19 @@ easy3d/core/point_cloud.h
 nanoflann/nanoflann.hpp
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/core/manifold_builder.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/core/manifold_builder.cpp
 easy3d/core/manifold_builder.h
 -
 easy3d/util/logging.h
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/core/point_cloud.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/core/point_cloud.cpp
 easy3d/core/point_cloud.h
 -
 cmath
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/core/surface_mesh.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/core/surface_mesh.cpp
 easy3d/core/surface_mesh.h
 -
 easy3d/util/logging.h

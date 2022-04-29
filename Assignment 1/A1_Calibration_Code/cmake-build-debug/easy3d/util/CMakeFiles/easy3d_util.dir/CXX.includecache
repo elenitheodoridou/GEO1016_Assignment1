@@ -234,7 +234,7 @@ unordered_map
 easy3d/util/chrono_watch.h
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/util/chrono_watch.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/util/chrono_watch.cpp
 easy3d/util/chrono_watch.h
 -
 cassert
@@ -248,7 +248,7 @@ iomanip
 easy3d/core/types.h
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/util/dialogs.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/util/dialogs.cpp
 easy3d/util/dialogs.h
 -
 easy3d/util/file_system.h
@@ -256,7 +256,7 @@ easy3d/util/file_system.h
 3rd_party/portable_file_dialogs/portable_file_dialogs.h
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/util/file_system.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/util/file_system.cpp
 easy3d/util/file_system.h
 -
 easy3d/util/string.h
@@ -300,7 +300,7 @@ libgen.h
 libproc.h
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/util/stop_watch.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/util/stop_watch.cpp
 easy3d/util/stop_watch.h
 -
 cmath
@@ -314,7 +314,7 @@ easy3d/core/types.h
 Windows.h
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/util/string.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/util/string.cpp
 easy3d/util/string.h
 -
 algorithm
@@ -324,7 +324,7 @@ cstdarg
 iostream
 -
 
-C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/easy3d/util/threading.cpp
+C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/easy3d/util/threading.cpp
 easy3d/util/threading.h
 -
 easy3d/util/logging.h

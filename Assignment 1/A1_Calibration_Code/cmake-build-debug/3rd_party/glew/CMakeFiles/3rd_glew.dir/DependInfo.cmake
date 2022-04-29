@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/3rd_party/glew/src/glew.c" "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glew/CMakeFiles/3rd_glew.dir/src/glew.c.obj"
+  "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/3rd_party/glew/src/glew.c" "C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glew/CMakeFiles/3rd_glew.dir/src/glew.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

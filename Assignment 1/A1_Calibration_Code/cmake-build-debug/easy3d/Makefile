@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code"
+CMAKE_SOURCE_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,18 +76,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\easy3d\\CMakeFiles\progress.marks"
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\easy3d\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) easy3d\all
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" 0
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) easy3d\clean
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
 .PHONY : clean
 
 # The main clean target
@@ -96,23 +96,23 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) easy3d\preinstall
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) easy3d\preinstall
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
 .PHONY : depend
 
 # Help Target
@@ -134,8 +134,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d
 .PHONY : cmake_check_build_system
 

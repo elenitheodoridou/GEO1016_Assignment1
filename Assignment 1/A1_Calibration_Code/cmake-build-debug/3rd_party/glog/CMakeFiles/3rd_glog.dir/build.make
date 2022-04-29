@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code"
+CMAKE_SOURCE_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include 3rd_party\glog\CMakeFiles\3rd_glog.dir\depend.make
@@ -57,28 +57,28 @@ include 3rd_party\glog\CMakeFiles\3rd_glog.dir\flags.make
 
 3rd_party\glog\CMakeFiles\3rd_glog.dir\logging.cc.obj: 3rd_party\glog\CMakeFiles\3rd_glog.dir\flags.make
 3rd_party\glog\CMakeFiles\3rd_glog.dir\logging.cc.obj: ..\3rd_party\glog\logging.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rd_party/glog/CMakeFiles/3rd_glog.dir/logging.cc.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rd_party/glog/CMakeFiles/3rd_glog.dir/logging.cc.obj"
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\3rd_glog.dir\logging.cc.obj /FdCMakeFiles\3rd_glog.dir\3rd_glog.pdb /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\3rd_party\glog\logging.cc"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\3rd_glog.dir\logging.cc.obj /FdCMakeFiles\3rd_glog.dir\3rd_glog.pdb /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\3rd_party\glog\logging.cc"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 3rd_party\glog\CMakeFiles\3rd_glog.dir\logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3rd_glog.dir/logging.cc.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\3rd_glog.dir\logging.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\3rd_party\glog\logging.cc"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\3rd_party\glog\logging.cc"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 3rd_party\glog\CMakeFiles\3rd_glog.dir\logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3rd_glog.dir/logging.cc.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_glog.dir\logging.cc.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\3rd_party\glog\logging.cc"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\3rd_glog.dir\logging.cc.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\3rd_party\glog\logging.cc"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 # Object files for target 3rd_glog
 3rd_glog_OBJECTS = \
@@ -90,25 +90,25 @@ include 3rd_party\glog\CMakeFiles\3rd_glog.dir\flags.make
 lib\3rd_glog.lib: 3rd_party\glog\CMakeFiles\3rd_glog.dir\logging.cc.obj
 lib\3rd_glog.lib: 3rd_party\glog\CMakeFiles\3rd_glog.dir\build.make
 lib\3rd_glog.lib: 3rd_party\glog\CMakeFiles\3rd_glog.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\lib\3rd_glog.lib"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\lib\3rd_glog.lib"
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 	$(CMAKE_COMMAND) -P CMakeFiles\3rd_glog.dir\cmake_clean_target.cmake
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:..\..\lib\3rd_glog.lib @CMakeFiles\3rd_glog.dir\objects1.rsp 
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 # Rule to build all files generated by this target.
 3rd_party\glog\CMakeFiles\3rd_glog.dir\build: lib\3rd_glog.lib
 .PHONY : 3rd_party\glog\CMakeFiles\3rd_glog.dir\build
 
 3rd_party\glog\CMakeFiles\3rd_glog.dir\clean:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 	$(CMAKE_COMMAND) -P CMakeFiles\3rd_glog.dir\cmake_clean.cmake
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 .PHONY : 3rd_party\glog\CMakeFiles\3rd_glog.dir\clean
 
 3rd_party\glog\CMakeFiles\3rd_glog.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\3rd_party\glog" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\3rd_party\glog" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\Assignment 1\A1_Calibration_Code\cmake-build-debug\3rd_party\glog\CMakeFiles\3rd_glog.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\3rd_party\glog" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\3rd_party\glog" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\3rd_party\glog\CMakeFiles\3rd_glog.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : 3rd_party\glog\CMakeFiles\3rd_glog.dir\depend
 
