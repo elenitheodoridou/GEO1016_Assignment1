@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code"
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code"
 -- The C compiler identification is MSVC 19.29.30136.0
 -- The CXX compiler identification is MSVC 19.29.30136.0
 -- Detecting C compiler ABI info
@@ -20,4 +20,4 @@
 -- Using Win32 for window creation
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug
+-- Build files have been written to: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug

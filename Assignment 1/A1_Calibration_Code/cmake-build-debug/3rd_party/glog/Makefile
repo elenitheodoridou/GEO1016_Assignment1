@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code"
+CMAKE_SOURCE_DIR = "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,18 +76,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\3rd_party\glog\\CMakeFiles\progress.marks"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\3rd_party\glog\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glog\all
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" 0
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glog\clean
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : clean
 
 # The main clean target
@@ -96,30 +96,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glog\preinstall
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glog\preinstall
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : depend
 
 # Convenience name for target.
 3rd_party\glog\CMakeFiles\3rd_glog.dir\rule:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3rd_party\glog\CMakeFiles\3rd_glog.dir\rule
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : 3rd_party\glog\CMakeFiles\3rd_glog.dir\rule
 
 # Convenience name for target.
@@ -128,9 +128,9 @@ depend:
 
 # fast build rule for target.
 3rd_glog\fast:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glog\CMakeFiles\3rd_glog.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glog\CMakeFiles\3rd_glog.dir\build
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : 3rd_glog\fast
 
 logging.obj: logging.cc.obj
@@ -138,9 +138,9 @@ logging.obj: logging.cc.obj
 
 # target to build an object file
 logging.cc.obj:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glog\CMakeFiles\3rd_glog.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glog\CMakeFiles\3rd_glog.dir\logging.cc.obj
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : logging.cc.obj
 
 logging.i: logging.cc.i
@@ -148,9 +148,9 @@ logging.i: logging.cc.i
 
 # target to preprocess a source file
 logging.cc.i:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glog\CMakeFiles\3rd_glog.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glog\CMakeFiles\3rd_glog.dir\logging.cc.i
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : logging.cc.i
 
 logging.s: logging.cc.s
@@ -158,9 +158,9 @@ logging.s: logging.cc.s
 
 # target to generate assembly for a file
 logging.cc.s:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(MAKE) $(MAKESILENT) -f 3rd_party\glog\CMakeFiles\3rd_glog.dir\build.make /nologo -$(MAKEFLAGS) 3rd_party\glog\CMakeFiles\3rd_glog.dir\logging.cc.s
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : logging.cc.s
 
 # Help Target
@@ -186,8 +186,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\3RD_PA~1\glog
 .PHONY : cmake_check_build_system
 

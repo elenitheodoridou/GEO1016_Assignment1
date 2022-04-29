@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code"
+CMAKE_SOURCE_DIR = "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include Calibration\CMakeFiles\Calibration.dir\depend.make
@@ -57,103 +57,103 @@ include Calibration\CMakeFiles\Calibration.dir\flags.make
 
 Calibration\CMakeFiles\Calibration.dir\main.cpp.obj: Calibration\CMakeFiles\Calibration.dir\flags.make
 Calibration\CMakeFiles\Calibration.dir\main.cpp.obj: ..\Calibration\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Calibration/CMakeFiles/Calibration.dir/main.cpp.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calibration.dir\main.cpp.obj /FdCMakeFiles\Calibration.dir\ /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Calibration/CMakeFiles/Calibration.dir/main.cpp.obj"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calibration.dir\main.cpp.obj /FdCMakeFiles\Calibration.dir\ /FS -c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\main.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calibration.dir/main.cpp.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Calibration.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\main.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Calibration.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\main.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calibration.dir/main.cpp.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Calibration.dir\main.cpp.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\main.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Calibration.dir\main.cpp.s /c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\main.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\calibration.cpp.obj: Calibration\CMakeFiles\Calibration.dir\flags.make
 Calibration\CMakeFiles\Calibration.dir\calibration.cpp.obj: ..\Calibration\calibration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Calibration/CMakeFiles/Calibration.dir/calibration.cpp.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calibration.dir\calibration.cpp.obj /FdCMakeFiles\Calibration.dir\ /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Calibration/CMakeFiles/Calibration.dir/calibration.cpp.obj"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calibration.dir\calibration.cpp.obj /FdCMakeFiles\Calibration.dir\ /FS -c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\calibration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calibration.dir/calibration.cpp.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Calibration.dir\calibration.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Calibration.dir\calibration.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\calibration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calibration.dir/calibration.cpp.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Calibration.dir\calibration.cpp.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Calibration.dir\calibration.cpp.s /c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\calibration_method.cpp.obj: Calibration\CMakeFiles\Calibration.dir\flags.make
 Calibration\CMakeFiles\Calibration.dir\calibration_method.cpp.obj: ..\Calibration\calibration_method.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Calibration/CMakeFiles/Calibration.dir/calibration_method.cpp.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calibration.dir\calibration_method.cpp.obj /FdCMakeFiles\Calibration.dir\ /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration_method.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Calibration/CMakeFiles/Calibration.dir/calibration_method.cpp.obj"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calibration.dir\calibration_method.cpp.obj /FdCMakeFiles\Calibration.dir\ /FS -c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration_method.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\calibration_method.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calibration.dir/calibration_method.cpp.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Calibration.dir\calibration_method.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration_method.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Calibration.dir\calibration_method.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration_method.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\calibration_method.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calibration.dir/calibration_method.cpp.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Calibration.dir\calibration_method.cpp.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration_method.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Calibration.dir\calibration_method.cpp.s /c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\calibration_method.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\matrix_algo.cpp.obj: Calibration\CMakeFiles\Calibration.dir\flags.make
 Calibration\CMakeFiles\Calibration.dir\matrix_algo.cpp.obj: ..\Calibration\matrix_algo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Calibration/CMakeFiles/Calibration.dir/matrix_algo.cpp.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calibration.dir\matrix_algo.cpp.obj /FdCMakeFiles\Calibration.dir\ /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\matrix_algo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Calibration/CMakeFiles/Calibration.dir/matrix_algo.cpp.obj"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calibration.dir\matrix_algo.cpp.obj /FdCMakeFiles\Calibration.dir\ /FS -c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\matrix_algo.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\matrix_algo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calibration.dir/matrix_algo.cpp.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Calibration.dir\matrix_algo.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\matrix_algo.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Calibration.dir\matrix_algo.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\matrix_algo.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 Calibration\CMakeFiles\Calibration.dir\matrix_algo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calibration.dir/matrix_algo.cpp.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Calibration.dir\matrix_algo.cpp.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\matrix_algo.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Calibration.dir\matrix_algo.cpp.s /c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration\matrix_algo.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 # Object files for target Calibration
 Calibration_OBJECTS = \
@@ -179,24 +179,24 @@ bin\Calibration.exe: lib\easy3d_core.lib
 bin\Calibration.exe: lib\easy3d_util.lib
 bin\Calibration.exe: lib\3rd_glog.lib
 bin\Calibration.exe: Calibration\CMakeFiles\Calibration.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ..\bin\Calibration.exe"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
-	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Calibration.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Calibration.dir\objects1.rsp @<<
- /out:..\bin\Calibration.exe /implib:..\lib\Calibration.lib /pdb:"C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\bin\Calibration.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  ..\lib\easy3d_core.lib ..\lib\easy3d_viewer.lib ..\lib\3rd_glew.lib opengl32.lib glu32.lib ..\lib\3rd_glfw.lib ..\lib\easy3d_fileio.lib ..\lib\easy3d_core.lib ..\lib\easy3d_util.lib ..\lib\3rd_glog.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ..\bin\Calibration.exe"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Calibration.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Calibration.dir\objects1.rsp @<<
+ /out:..\bin\Calibration.exe /implib:..\lib\Calibration.lib /pdb:"C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\bin\Calibration.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  ..\lib\easy3d_core.lib ..\lib\easy3d_viewer.lib ..\lib\3rd_glew.lib opengl32.lib glu32.lib ..\lib\3rd_glfw.lib ..\lib\easy3d_fileio.lib ..\lib\easy3d_core.lib ..\lib\easy3d_util.lib ..\lib\3rd_glog.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 # Rule to build all files generated by this target.
 Calibration\CMakeFiles\Calibration.dir\build: bin\Calibration.exe
 .PHONY : Calibration\CMakeFiles\Calibration.dir\build
 
 Calibration\CMakeFiles\Calibration.dir\clean:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\CALIBR~1
 	$(CMAKE_COMMAND) -P CMakeFiles\Calibration.dir\cmake_clean.cmake
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 .PHONY : Calibration\CMakeFiles\Calibration.dir\clean
 
 Calibration\CMakeFiles\Calibration.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\Calibration" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\Calibration" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\Calibration\CMakeFiles\Calibration.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\Calibration" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\Calibration" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\Calibration\CMakeFiles\Calibration.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : Calibration\CMakeFiles\Calibration.dir\depend
 

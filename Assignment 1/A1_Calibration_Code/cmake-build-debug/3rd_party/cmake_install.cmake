@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/3rd_party
+# Install script for directory: C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Assignment 1/A1_Calibration_Code/3rd_party
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glew/cmake_install.cmake")
-  include("C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glfw/cmake_install.cmake")
-  include("C:/Users/mavc/Documents/Geomatics/Photogrammetry and 3D computer vision/GEO1016_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glog/cmake_install.cmake")
+  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glew/cmake_install.cmake")
+  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glfw/cmake_install.cmake")
+  include("C:/Users/etheo/Documents/Geomatics/Q4/GEO1016/Assignment1/eleni_Assignment1/Assignment 1/A1_Calibration_Code/cmake-build-debug/3rd_party/glog/cmake_install.cmake")
 
 endif()
 

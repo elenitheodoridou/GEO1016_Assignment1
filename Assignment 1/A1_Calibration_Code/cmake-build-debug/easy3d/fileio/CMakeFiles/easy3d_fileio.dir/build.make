@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code"
+CMAKE_SOURCE_DIR = "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include easy3d\fileio\CMakeFiles\easy3d_fileio.dir\depend.make
@@ -57,128 +57,128 @@ include easy3d\fileio\CMakeFiles\easy3d_fileio.dir\flags.make
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.obj: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\flags.make
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.obj: ..\easy3d\fileio\point_cloud_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/point_cloud_io.cpp.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\point_cloud_io.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/point_cloud_io.cpp.obj"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\point_cloud_io.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/easy3d_fileio.dir/point_cloud_io.cpp.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\point_cloud_io.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\point_cloud_io.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/easy3d_fileio.dir/point_cloud_io.cpp.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\point_cloud_io.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\point_cloud_io.cpp.s /c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\point_cloud_io.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\image_io.cpp.obj: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\flags.make
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\image_io.cpp.obj: ..\easy3d\fileio\image_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/image_io.cpp.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\image_io.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\image_io.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/image_io.cpp.obj"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\image_io.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\image_io.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\image_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/easy3d_fileio.dir/image_io.cpp.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\image_io.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\image_io.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\image_io.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\image_io.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\image_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/easy3d_fileio.dir/image_io.cpp.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\image_io.cpp.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\image_io.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\image_io.cpp.s /c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\image_io.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.obj: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\flags.make
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.obj: ..\easy3d\fileio\surface_mesh_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/surface_mesh_io.cpp.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/surface_mesh_io.cpp.obj"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/easy3d_fileio.dir/surface_mesh_io.cpp.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/easy3d_fileio.dir/surface_mesh_io.cpp.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\surface_mesh_io.cpp.s /c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.obj: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\flags.make
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.obj: ..\easy3d\fileio\surface_mesh_io_obj.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/surface_mesh_io_obj.cpp.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io_obj.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/surface_mesh_io_obj.cpp.obj"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io_obj.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/easy3d_fileio.dir/surface_mesh_io_obj.cpp.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io_obj.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io_obj.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/easy3d_fileio.dir/surface_mesh_io_obj.cpp.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io_obj.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\surface_mesh_io_obj.cpp.s /c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\surface_mesh_io_obj.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\resources.cpp.obj: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\flags.make
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\resources.cpp.obj: ..\easy3d\fileio\resources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/resources.cpp.obj"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\resources.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\resources.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object easy3d/fileio/CMakeFiles/easy3d_fileio.dir/resources.cpp.obj"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\easy3d_fileio.dir\resources.cpp.obj /FdCMakeFiles\easy3d_fileio.dir\easy3d_fileio.pdb /FS -c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\resources.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/easy3d_fileio.dir/resources.cpp.i"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\resources.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\resources.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\easy3d_fileio.dir\resources.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\resources.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/easy3d_fileio.dir/resources.cpp.s"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\resources.cpp.s /c "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\resources.cpp"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\easy3d_fileio.dir\resources.cpp.s /c "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio\resources.cpp"
 <<
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 # Object files for target easy3d_fileio
 easy3d_fileio_OBJECTS = \
@@ -198,25 +198,25 @@ lib\easy3d_fileio.lib: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\surface_mesh_i
 lib\easy3d_fileio.lib: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\resources.cpp.obj
 lib\easy3d_fileio.lib: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\build.make
 lib\easy3d_fileio.lib: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ..\..\lib\easy3d_fileio.lib"
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ..\..\lib\easy3d_fileio.lib"
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
 	$(CMAKE_COMMAND) -P CMakeFiles\easy3d_fileio.dir\cmake_clean_target.cmake
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:..\..\lib\easy3d_fileio.lib @CMakeFiles\easy3d_fileio.dir\objects1.rsp 
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:..\..\lib\easy3d_fileio.lib @CMakeFiles\easy3d_fileio.dir\objects1.rsp 
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 
 # Rule to build all files generated by this target.
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\build: lib\easy3d_fileio.lib
 .PHONY : easy3d\fileio\CMakeFiles\easy3d_fileio.dir\build
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\clean:
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1\easy3d\fileio
 	$(CMAKE_COMMAND) -P CMakeFiles\easy3d_fileio.dir\cmake_clean.cmake
-	cd C:\Users\mavc\DOCUME~1\GEOMAT~1\PHOTOG~1\GEO101~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
+	cd C:\Users\etheo\DOCUME~1\GEOMAT~1\Q4\GEO1016\ASSIGN~1\ELENI_~1\ASSIGN~1\A1_CAL~1\CMAKE-~1
 .PHONY : easy3d\fileio\CMakeFiles\easy3d_fileio.dir\clean
 
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\easy3d\fileio" "C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\easy3d\fileio\CMakeFiles\easy3d_fileio.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\easy3d\fileio" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\easy3d\fileio" "C:\Users\etheo\Documents\Geomatics\Q4\GEO1016\Assignment1\eleni_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\easy3d\fileio\CMakeFiles\easy3d_fileio.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : easy3d\fileio\CMakeFiles\easy3d_fileio.dir\depend
 
