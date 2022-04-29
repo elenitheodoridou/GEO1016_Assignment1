@@ -204,6 +204,20 @@ bool Calibration::calibration(
 
     // TODO: check if input is valid (e.g., number of correspondences >= 6, sizes of 2D/3D points must match)
 
+    Vector2D points2d;
+    Vector3D points3d;
+
+    std::cout << sizeof(points_2d) << std::endl;
+    std::cout << sizeof(points_3d) << std::endl;
+
+    /*
+    if (length(points_2d) == length(points_3d) and length(points_2d) >= 6) {
+        std::cout << "Input is valid" << std::endl;
+    } else {
+        std::cout << "Input is invalid (number of correspondences < 6 or sizes of 2D/3D points don't match" << std::endl;
+    }
+     */
+
     // TODO: construct the P matrix (so P * m = 0).
 
     // TODO: solve for M (the whole projection matrix, i.e., M = K * [R, t]) using SVD decomposition.

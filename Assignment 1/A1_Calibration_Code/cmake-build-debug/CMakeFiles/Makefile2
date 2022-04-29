@@ -331,8 +331,8 @@ easy3d\viewer\clean: easy3d\viewer\CMakeFiles\easy3d_viewer.dir\clean
 # Target rules for target easy3d/core/CMakeFiles/easy3d_core.dir
 
 # All Build rule for target.
-easy3d\core\CMakeFiles\easy3d_core.dir\all: 3rd_party\glog\CMakeFiles\3rd_glog.dir\all
 easy3d\core\CMakeFiles\easy3d_core.dir\all: easy3d\util\CMakeFiles\easy3d_util.dir\all
+easy3d\core\CMakeFiles\easy3d_core.dir\all: 3rd_party\glog\CMakeFiles\3rd_glog.dir\all
 	$(MAKE) $(MAKESILENT) -f easy3d\core\CMakeFiles\easy3d_core.dir\build.make /nologo -$(MAKEFLAGS) easy3d\core\CMakeFiles\easy3d_core.dir\depend
 	$(MAKE) $(MAKESILENT) -f easy3d\core\CMakeFiles\easy3d_core.dir\build.make /nologo -$(MAKEFLAGS) easy3d\core\CMakeFiles\easy3d_core.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=26,27,28,29,30,31 "Built target easy3d_core"
@@ -359,8 +359,8 @@ easy3d\core\CMakeFiles\easy3d_core.dir\clean:
 
 # All Build rule for target.
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\all: easy3d\core\CMakeFiles\easy3d_core.dir\all
-easy3d\fileio\CMakeFiles\easy3d_fileio.dir\all: 3rd_party\glog\CMakeFiles\3rd_glog.dir\all
 easy3d\fileio\CMakeFiles\easy3d_fileio.dir\all: easy3d\util\CMakeFiles\easy3d_util.dir\all
+easy3d\fileio\CMakeFiles\easy3d_fileio.dir\all: 3rd_party\glog\CMakeFiles\3rd_glog.dir\all
 	$(MAKE) $(MAKESILENT) -f easy3d\fileio\CMakeFiles\easy3d_fileio.dir\build.make /nologo -$(MAKEFLAGS) easy3d\fileio\CMakeFiles\easy3d_fileio.dir\depend
 	$(MAKE) $(MAKESILENT) -f easy3d\fileio\CMakeFiles\easy3d_fileio.dir\build.make /nologo -$(MAKEFLAGS) easy3d\fileio\CMakeFiles\easy3d_fileio.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\mavc\Documents\Geomatics\Photogrammetry and 3D computer vision\GEO1016_Assignment1\Assignment 1\A1_Calibration_Code\cmake-build-debug\CMakeFiles" --progress-num=32,33,34,35,36,37 "Built target easy3d_fileio"
@@ -412,11 +412,11 @@ easy3d\util\CMakeFiles\easy3d_util.dir\clean:
 # Target rules for target easy3d/viewer/CMakeFiles/easy3d_viewer.dir
 
 # All Build rule for target.
+easy3d\viewer\CMakeFiles\easy3d_viewer.dir\all: 3rd_party\glew\CMakeFiles\3rd_glew.dir\all
 easy3d\viewer\CMakeFiles\easy3d_viewer.dir\all: easy3d\core\CMakeFiles\easy3d_core.dir\all
 easy3d\viewer\CMakeFiles\easy3d_viewer.dir\all: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\all
-easy3d\viewer\CMakeFiles\easy3d_viewer.dir\all: 3rd_party\glog\CMakeFiles\3rd_glog.dir\all
 easy3d\viewer\CMakeFiles\easy3d_viewer.dir\all: easy3d\util\CMakeFiles\easy3d_util.dir\all
-easy3d\viewer\CMakeFiles\easy3d_viewer.dir\all: 3rd_party\glew\CMakeFiles\3rd_glew.dir\all
+easy3d\viewer\CMakeFiles\easy3d_viewer.dir\all: 3rd_party\glog\CMakeFiles\3rd_glog.dir\all
 easy3d\viewer\CMakeFiles\easy3d_viewer.dir\all: 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\all
 	$(MAKE) $(MAKESILENT) -f easy3d\viewer\CMakeFiles\easy3d_viewer.dir\build.make /nologo -$(MAKEFLAGS) easy3d\viewer\CMakeFiles\easy3d_viewer.dir\depend
 	$(MAKE) $(MAKESILENT) -f easy3d\viewer\CMakeFiles\easy3d_viewer.dir\build.make /nologo -$(MAKEFLAGS) easy3d\viewer\CMakeFiles\easy3d_viewer.dir\build
@@ -443,11 +443,11 @@ easy3d\viewer\CMakeFiles\easy3d_viewer.dir\clean:
 # Target rules for target Calibration/CMakeFiles/Calibration.dir
 
 # All Build rule for target.
+Calibration\CMakeFiles\Calibration.dir\all: 3rd_party\glew\CMakeFiles\3rd_glew.dir\all
 Calibration\CMakeFiles\Calibration.dir\all: easy3d\core\CMakeFiles\easy3d_core.dir\all
 Calibration\CMakeFiles\Calibration.dir\all: easy3d\fileio\CMakeFiles\easy3d_fileio.dir\all
-Calibration\CMakeFiles\Calibration.dir\all: 3rd_party\glog\CMakeFiles\3rd_glog.dir\all
 Calibration\CMakeFiles\Calibration.dir\all: easy3d\util\CMakeFiles\easy3d_util.dir\all
-Calibration\CMakeFiles\Calibration.dir\all: 3rd_party\glew\CMakeFiles\3rd_glew.dir\all
+Calibration\CMakeFiles\Calibration.dir\all: 3rd_party\glog\CMakeFiles\3rd_glog.dir\all
 Calibration\CMakeFiles\Calibration.dir\all: 3rd_party\glfw\src\CMakeFiles\3rd_glfw.dir\all
 Calibration\CMakeFiles\Calibration.dir\all: easy3d\viewer\CMakeFiles\easy3d_viewer.dir\all
 	$(MAKE) $(MAKESILENT) -f Calibration\CMakeFiles\Calibration.dir\build.make /nologo -$(MAKEFLAGS) Calibration\CMakeFiles\Calibration.dir\depend

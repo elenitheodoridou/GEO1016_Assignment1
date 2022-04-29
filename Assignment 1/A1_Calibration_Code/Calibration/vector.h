@@ -336,7 +336,7 @@ namespace easy3d {
     inline Vector::Vector(const std::vector<FT> &rhs) {
         data_ = std::vector<double>(rhs.size());
         for (std::size_t i = 0; i < rhs.size(); ++i)
-            data_[i] = rhs[i];
+            data_[i] = static_cast<double>(rhs[i]);
     }
 
     inline Vector &Vector::operator=(const Vector &rhs) {
