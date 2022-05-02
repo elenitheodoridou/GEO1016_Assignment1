@@ -204,23 +204,46 @@ bool Calibration::calibration(
 
     // TODO: check if input is valid (e.g., number of correspondences >= 6, sizes of 2D/3D points must match)
 
-    Vector2D points2d;
-    Vector3D points3d;
 
-    std::cout << sizeof(points_2d) << std::endl;
-    std::cout << sizeof(points_3d) << std::endl;
-
-    /*
-    if (length(points_2d) == length(points_3d) and length(points_2d) >= 6) {
+    if (points_2d.size() == points_3d.size() && points_2d.size() >= 6) {
         std::cout << "Input is valid" << std::endl;
     } else {
         std::cout << "Input is invalid (number of correspondences < 6 or sizes of 2D/3D points don't match" << std::endl;
     }
-     */
 
     // TODO: construct the P matrix (so P * m = 0).
 
+    int number_of_columns = points_3d.size();
+    Matrix matrix_P_3D(3, number_of_columns, 0.0);
+    Matrix matrix_P_2D(2, number_of_columns, 0.0);
+
+    int i = 0;
+    for (const auto item : points_3d) {
+        matrix_P_3D.set_column(i, item);
+        i++;
+    }
+
+    int j = 0;
+    for (const auto item : points_2d) {
+        matrix_P_2D.set_column(j, item);
+        j++;
+    }
+
+    std::cout << matrix_P_3D << std::endl;
+    std::cout << matrix_P_2D << std::endl;
+
+    Matrix invP;
+    inverse(matrix_P_3D, invP);
+    //Matrix M = invP * matrix_P_2D;
+
+
+
+
+
+
     // TODO: solve for M (the whole projection matrix, i.e., M = K * [R, t]) using SVD decomposition.
+
+
     //   Optional: you can check if your M is correct by applying M on the 3D points. If correct, the projected point
     //             should be very close to your input images points.
 
