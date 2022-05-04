@@ -213,30 +213,25 @@ bool Calibration::calibration(
 
     // TODO: construct the P matrix (so P * m = 0).
 
-    int number_of_columns = points_3d.size();
-    Matrix matrix_P_3D(3, number_of_columns, 0.0);
-    Matrix matrix_P_2D(2, number_of_columns, 0.0);
+    int number_of_equations = points_3d.size() * 2;
+    Matrix matrix_M(number_of_equations, 12, 0.0);
 
-    int i = 0;
-    for (const auto item : points_3d) {
-        matrix_P_3D.set_column(i, item);
-        i++;
+    // Construct matrix M
+    int k = 0;
+    for (int i = 0; i < points_3d.size(); i++) {
+        std::vector<double> vector_ax = {-points_3d[i][0], -points_3d[i][1], -points_3d[i][2], -1, 0, 0, 0, 0, points_2d[i][0]*points_3d[i][0], points_2d[i][0]*points_3d[i][1], points_2d[i][0]*points_3d[i][2], points_2d[i][0]};
+        std::vector<double> vector_ay = {0, 0, 0, 0, -points_3d[i][0], -points_3d[i][1], -points_3d[i][2], -1, points_2d[i][1]*points_3d[i][0], points_2d[i][1]*points_3d[i][1], points_2d[i][1]*points_3d[i][2], points_2d[i][1]};
+        if (i == 0) {
+            matrix_M.set_row(i, vector_ax);
+        } else {
+            matrix_M.set_row(i+k, vector_ax);
+        }
+        k++;
+        matrix_M.set_row(i+k, vector_ay);
     }
 
-    int j = 0;
-    for (const auto item : points_2d) {
-        matrix_P_2D.set_column(j, item);
-        j++;
-    }
 
-    std::cout << matrix_P_3D << std::endl;
-    std::cout << matrix_P_2D << std::endl;
-
-    Matrix invP;
-    inverse(matrix_P_3D, invP);
-    //Matrix M = invP * matrix_P_2D;
-
-
+    std::cout << matrix_M << std::endl;
 
 
 
