@@ -303,10 +303,6 @@ bool Calibration::calibration(
     Vector a3 = matrix_a3.get_column(0);
 
 
-//    std::cout << matrix_a1 << "MATRIX a1" << std::endl;
-//    std::cout << matrix_a2 << "MATRIX a2" << std::endl;
-//    std::cout << matrix_a3 << "MATRIX a3" << std::endl;
-
     double r = 1/norm(a1);
     double u0 = pow (r, 2.0) * dot(a1,a2);
     double v0 = pow (r, 2.0) * dot(a2,a3);
