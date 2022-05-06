@@ -219,8 +219,8 @@ bool Calibration::calibration(
     // Construct matrix P
     int k = 0;
     for (int i = 0; i < points_3d.size(); i++) {
-        std::vector<double> vector_ax = {-points_3d[i][0], -points_3d[i][1], -points_3d[i][2], -1, 0, 0, 0, 0, points_2d[i][0]*points_3d[i][0], points_2d[i][0]*points_3d[i][1], points_2d[i][0]*points_3d[i][2], points_2d[i][0]};
-        std::vector<double> vector_ay = {0, 0, 0, 0, -points_3d[i][0], -points_3d[i][1], -points_3d[i][2], -1, points_2d[i][1]*points_3d[i][0], points_2d[i][1]*points_3d[i][1], points_2d[i][1]*points_3d[i][2], points_2d[i][1]};
+        std::vector<double> vector_ax = {points_3d[i][0], points_3d[i][1], points_3d[i][2], 1, 0, 0, 0, 0, -points_2d[i][0]*points_3d[i][0], -points_2d[i][0]*points_3d[i][1], -points_2d[i][0]*points_3d[i][2], -points_2d[i][0]};
+        std::vector<double> vector_ay = {0, 0, 0, 0, points_3d[i][0], points_3d[i][1], points_3d[i][2], 1, -points_2d[i][1]*points_3d[i][0], -points_2d[i][1]*points_3d[i][1], -points_2d[i][1]*points_3d[i][2], -points_2d[i][1]};
         if (i == 0) {
             matrix_P.set_row(i, vector_ax);
         } else {
@@ -242,6 +242,10 @@ bool Calibration::calibration(
 
     svd_decompose(matrix_P, matrix_U, matrix_S, matrix_V);
 
+    std::cout << matrix_U << std::endl;
+    std::cout << matrix_S << std::endl;
+    std::cout << matrix_V << std::endl;
+
     Vector vector_m = matrix_V.get_row(matrix_V.rows() - 1);
 
     std::cout << vector_m << std::endl;
@@ -260,6 +264,32 @@ bool Calibration::calibration(
     // TODO: extract intrinsic parameters from M.
 
     // TODO: extract extrinsic parameters from M.
+
+    // First, find X0
+    // Create matrix_H and vector_h
+    Matrix matrix_A(3, 3, 0.0);
+    Matrix vector_b(3, 1, 0.0);
+
+    for (int i = 0; i < 3; i++) {
+        matrix_A.set_column(i, matrix_M.get_column(i));
+    }
+
+    vector_b.set_column(0, matrix_M.get_column(3));
+
+    std::cout << vector_b << std::endl;
+    std::cout << matrix_A << std::endl;
+
+    Matrix matrix_X0(3, 1, 0.0);
+    Matrix inv_matrix_A;
+    inverse(matrix_A, inv_matrix_A);
+    matrix_X0 = -inv_matrix_A * vector_b;
+
+    std::cout << matrix_X0 << std::endl;
+
+    //intrinsics
+
+
+
 
     std::cout << "\n\tTODO: After you implement this function, please return 'true' - this will trigger the viewer to\n"
                  "\t\tupdate the rendering using your recovered camera parameters. This can help you to visually check\n"
