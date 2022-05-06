@@ -213,35 +213,49 @@ bool Calibration::calibration(
 
     // TODO: construct the P matrix (so P * m = 0).
 
-    int number_of_columns = points_3d.size();
-    Matrix matrix_P_3D(3, number_of_columns, 0.0);
-    Matrix matrix_P_2D(2, number_of_columns, 0.0);
+    int number_of_equations = points_3d.size() * 2;
+    Matrix matrix_P(number_of_equations, 12, 0.0);
 
-    int i = 0;
-    for (const auto item : points_3d) {
-        matrix_P_3D.set_column(i, item);
-        i++;
+    // Construct matrix P
+    int k = 0;
+    for (int i = 0; i < points_3d.size(); i++) {
+        std::vector<double> vector_ax = {points_3d[i][0], points_3d[i][1], points_3d[i][2], 1, 0, 0, 0, 0, -points_2d[i][0]*points_3d[i][0], -points_2d[i][0]*points_3d[i][1], -points_2d[i][0]*points_3d[i][2], -points_2d[i][0]};
+        std::vector<double> vector_ay = {0, 0, 0, 0, points_3d[i][0], points_3d[i][1], points_3d[i][2], 1, -points_2d[i][1]*points_3d[i][0], -points_2d[i][1]*points_3d[i][1], -points_2d[i][1]*points_3d[i][2], -points_2d[i][1]};
+        if (i == 0) {
+            matrix_P.set_row(i, vector_ax);
+        } else {
+            matrix_P.set_row(i+k, vector_ax);
+        }
+        k++;
+        matrix_P.set_row(i+k, vector_ay);
     }
 
-    int j = 0;
-    for (const auto item : points_2d) {
-        matrix_P_2D.set_column(j, item);
-        j++;
-    }
 
-    std::cout << matrix_P_3D << std::endl;
-    std::cout << matrix_P_2D << std::endl;
-
-    Matrix invP;
-    inverse(matrix_P_3D, invP);
-    //Matrix M = invP * matrix_P_2D;
-
-
-
-
+    //std::cout << matrix_P << std::endl;
 
 
     // TODO: solve for M (the whole projection matrix, i.e., M = K * [R, t]) using SVD decomposition.
+
+    Matrix matrix_U(number_of_equations, number_of_equations, 0.0);
+    Matrix matrix_S(number_of_equations, 12, 0.0);
+    Matrix matrix_V(12, 12, 0.0);
+
+    svd_decompose(matrix_P, matrix_U, matrix_S, matrix_V);
+
+    std::cout << matrix_U << std::endl;
+    std::cout << matrix_S << std::endl;
+    std::cout << matrix_V << std::endl;
+
+    Vector vector_m = matrix_V.get_row(matrix_V.rows() - 1);
+
+    //std::cout << vector_m << std::endl;
+
+    Matrix matrix_M(3, 4, 0.0);
+    matrix_M.set_row(0, {vector_m[0], vector_m[1], vector_m[2], vector_m[3]});
+    matrix_M.set_row(1, {vector_m[4], vector_m[5], vector_m[6], vector_m[7]});
+    matrix_M.set_row(2, {vector_m[8], vector_m[9], vector_m[10], vector_m[11]});
+
+    std::cout << matrix_M << "MATRIX M" << std::endl;
 
 
     //   Optional: you can check if your M is correct by applying M on the 3D points. If correct, the projected point
@@ -249,14 +263,71 @@ bool Calibration::calibration(
 
     // TODO: extract intrinsic parameters from M.
 
+
     // TODO: extract extrinsic parameters from M.
+
+    // First, find X0
+    // Create matrix_H and vector_h
+    Matrix matrix_A(3, 3, 0.0);
+    Matrix vector_b(3, 1, 0.0);
+
+    for (int i = 0; i < 3; i++) {
+        matrix_A.set_column(i, matrix_M.get_column(i));
+    }
+
+    vector_b.set_column(0, matrix_M.get_column(3));
+
+    //std::cout << vector_b << "VECTOR B" << std::endl;
+    //std::cout << matrix_A << "MATRIX A" <<std::endl;
+
+    Matrix matrix_X0(3, 1, 0.0);
+    Matrix inv_matrix_A;
+    inverse(matrix_A, inv_matrix_A);
+    matrix_X0 = -inv_matrix_A * vector_b;
+
+    //std::cout << matrix_X0 << "MATRIX AO" << std::endl;
+
+    //intrinsics
+    Matrix matrix_a1(3, 1, 0.0);
+    Matrix matrix_a2(3, 1, 0.0);
+    Matrix matrix_a3(3, 1, 0.0);
+
+    Matrix A_Transp = transpose(matrix_A);
+
+    matrix_a1.set_column(0, A_Transp.get_column(0));
+    matrix_a2.set_column(0, A_Transp.get_column(1));
+    matrix_a3.set_column(0, A_Transp.get_column(2));
+
+    Vector a1 = matrix_a1.get_column(0);
+    Vector a2 = matrix_a2.get_column(0);
+    Vector a3 = matrix_a3.get_column(0);
+
+
+//    std::cout << matrix_a1 << "MATRIX a1" << std::endl;
+//    std::cout << matrix_a2 << "MATRIX a2" << std::endl;
+//    std::cout << matrix_a3 << "MATRIX a3" << std::endl;
+
+    double r = 1/norm(a1);
+    double u0 = pow (r, 2.0) * dot(a1,a2);
+    double v0 = pow (r, 2.0) * dot(a2,a3);
+    double lower = dot(norm(cross(a1,a3)),norm(cross(a2,a3)));
+    double upper = dot(cross(a1,a3), cross(a2,a3));
+    double theta = acos(-lower/upper);
+    double aa = pow (r, 2.0) * norm(cross(a1,a3))*sin(theta);
+    double bb = pow (r, 2.0) * norm(cross(a2,a3))*sin(theta);
+
+    std::cout << r << " r" << std::endl;
+    std::cout << u0 << " u0" << std::endl;
+    std::cout << v0 << " v0" << std::endl;
+    std::cout << theta << " theta" << std::endl;
+    std::cout << aa << " aa" << std::endl;
+    std::cout << bb << " bb" << std::endl;
 
     std::cout << "\n\tTODO: After you implement this function, please return 'true' - this will trigger the viewer to\n"
                  "\t\tupdate the rendering using your recovered camera parameters. This can help you to visually check\n"
                  "\t\tif your calibration is successful or not.\n\n" << std::flush;
     return false;
 }
-
 
 
 
