@@ -214,29 +214,44 @@ bool Calibration::calibration(
     // TODO: construct the P matrix (so P * m = 0).
 
     int number_of_equations = points_3d.size() * 2;
-    Matrix matrix_M(number_of_equations, 12, 0.0);
+    Matrix matrix_P(number_of_equations, 12, 0.0);
 
-    // Construct matrix M
+    // Construct matrix P
     int k = 0;
     for (int i = 0; i < points_3d.size(); i++) {
         std::vector<double> vector_ax = {-points_3d[i][0], -points_3d[i][1], -points_3d[i][2], -1, 0, 0, 0, 0, points_2d[i][0]*points_3d[i][0], points_2d[i][0]*points_3d[i][1], points_2d[i][0]*points_3d[i][2], points_2d[i][0]};
         std::vector<double> vector_ay = {0, 0, 0, 0, -points_3d[i][0], -points_3d[i][1], -points_3d[i][2], -1, points_2d[i][1]*points_3d[i][0], points_2d[i][1]*points_3d[i][1], points_2d[i][1]*points_3d[i][2], points_2d[i][1]};
         if (i == 0) {
-            matrix_M.set_row(i, vector_ax);
+            matrix_P.set_row(i, vector_ax);
         } else {
-            matrix_M.set_row(i+k, vector_ax);
+            matrix_P.set_row(i+k, vector_ax);
         }
         k++;
-        matrix_M.set_row(i+k, vector_ay);
+        matrix_P.set_row(i+k, vector_ay);
     }
 
 
-    std::cout << matrix_M << std::endl;
-
-
+    std::cout << matrix_P << std::endl;
 
 
     // TODO: solve for M (the whole projection matrix, i.e., M = K * [R, t]) using SVD decomposition.
+
+    Matrix matrix_U(number_of_equations, number_of_equations, 0.0);
+    Matrix matrix_S(number_of_equations, 12, 0.0);
+    Matrix matrix_V(12, 12, 0.0);
+
+    svd_decompose(matrix_P, matrix_U, matrix_S, matrix_V);
+
+    Vector vector_m = matrix_V.get_row(matrix_V.rows() - 1);
+
+    std::cout << vector_m << std::endl;
+
+    Matrix matrix_M(3, 4, 0.0);
+    matrix_M.set_row(0, {vector_m[0], vector_m[1], vector_m[2], vector_m[3]});
+    matrix_M.set_row(1, {vector_m[4], vector_m[5], vector_m[6], vector_m[7]});
+    matrix_M.set_row(2, {vector_m[8], vector_m[9], vector_m[10], vector_m[11]});
+
+    std::cout << matrix_M << std::endl;
 
 
     //   Optional: you can check if your M is correct by applying M on the 3D points. If correct, the projected point
