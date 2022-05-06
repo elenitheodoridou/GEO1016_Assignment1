@@ -287,6 +287,27 @@ bool Calibration::calibration(
     std::cout << matrix_X0 << std::endl;
 
     //intrinsics
+    Vector a1 = matrix_A.get_row(0);
+    Vector a2 = matrix_A.get_row(1);
+    Vector a3 = matrix_A.get_row(2);
+
+    double rho = 1 / length2(a3);
+    double u0 = pow(rho, 2.0) * dot(a1, a3);
+    double v0 = pow(rho, 2.0) * dot(a2, a3);
+    double cos_theta = -(dot(cross(a1, a3), cross(a2, a3)))/(dot(length2(cross(a1, a3)), length2(cross(a2, a3))));
+    double theta = acos(cos_theta);
+    double alpha = pow(rho, 2.0) * length2(cross(a1, a3)) * sin(theta);
+    double beta = pow(rho, 2.0) * length2(cross(a2, a3)) * sin(theta);
+
+
+
+    std::cout << rho << std::endl;
+    std::cout << u0 << std::endl;
+    std::cout << v0 << std::endl;
+    std::cout << cos_theta << std::endl;
+    std::cout << theta << std::endl;
+    std::cout << alpha << std::endl;
+    std::cout << beta << std::endl;
 
 
 
