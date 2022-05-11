@@ -246,7 +246,7 @@ bool Calibration::calibration(
     std::cout << matrix_S << std::endl;
     std::cout << matrix_V << std::endl;
 
-    Vector vector_m = matrix_V.get_row(matrix_V.rows() - 1);
+    Vector vector_m = matrix_V.get_column(matrix_V.cols() - 1);
 
     //std::cout << vector_m << std::endl;
 
@@ -257,9 +257,38 @@ bool Calibration::calibration(
 
     std::cout << matrix_M << "MATRIX M" << std::endl;
 
-
     //   Optional: you can check if your M is correct by applying M on the 3D points. If correct, the projected point
     //             should be very close to your input images points.
+
+    Matrix matrix_p(3,1, 0.0);
+    Matrix matrix_pw(4,1,0.0);
+
+
+    for (int i = 0; i < points_3d.size(); i++) {
+        //matrix_p.set_column(0, {points_2d[i][0],points_2d[i][1],1});
+        double px = points_2d[i][0];
+        double py = points_2d[i][1];
+        matrix_pw.set_column(0, {points_3d[i][0], points_3d[i][1], points_3d[i][2], 1});
+        Matrix matrix_testingM = matrix_M * matrix_pw;
+        double pwx = matrix_testingM[0][0] / matrix_testingM[0][2];
+        double pwy = matrix_testingM[0][1] / matrix_testingM[0][2];
+        std::cout << pwx << " pwx " << px << " px" << std::endl;
+        std::cout << pwy << " pwy " << py << " py" << std::endl;
+    }
+
+//        double px = points_2d[0][0];
+//        double py = points_2d[0][1];
+//        matrix_pw.set_column(0, {points_3d[0][0], points_3d[0][1], points_3d[0][2], 1});
+//        Matrix matrix_testingM = matrix_M * matrix_pw;
+//        double pwx = matrix_testingM[0][0] / matrix_testingM[0][2];
+//        double pwy = matrix_testingM[0][1] / matrix_testingM[0][2];
+
+//
+//    std::cout << pwx << " pwx " << px << " px" <<std::endl;
+//    std::cout << pwy << " pwy " << py << " py" << std::endl;
+
+
+
 
     // TODO: extract intrinsic parameters from M.
 
@@ -303,21 +332,41 @@ bool Calibration::calibration(
     Vector a3 = matrix_a3.get_column(0);
 
 
-    double r = 1/norm(a1);
-    double u0 = pow (r, 2.0) * dot(a1,a2);
+    double r = 1/length(a3);
+    double u0 = pow (r, 2.0) * dot(a1,a3);
     double v0 = pow (r, 2.0) * dot(a2,a3);
-    double lower = dot(norm(cross(a1,a3)),norm(cross(a2,a3)));
+    //double lower = dot(length(cross(a1,a3)),length(cross(a2,a3)));
+    double lower = length(cross(a1,a3))*length(cross(a2,a3));
     double upper = dot(cross(a1,a3), cross(a2,a3));
-    double theta = acos(-lower/upper);
-    double aa = pow (r, 2.0) * norm(cross(a1,a3))*sin(theta);
-    double bb = pow (r, 2.0) * norm(cross(a2,a3))*sin(theta);
+    double theta = acos(-upper/lower);
+    double aa = pow (r, 2.0) * length(cross(a1,a3))*sin(theta);
+    double bb = pow (r, 2.0) * length(cross(a2,a3))*sin(theta);
 
     std::cout << r << " r" << std::endl;
     std::cout << u0 << " u0" << std::endl;
     std::cout << v0 << " v0" << std::endl;
+    std::cout << lower << " lower" << std::endl;
+    std::cout << upper << " upper" << std::endl;
     std::cout << theta << " theta" << std::endl;
     std::cout << aa << " aa" << std::endl;
     std::cout << bb << " bb" << std::endl;
+
+
+    //r1, r2, r3 are 1X3 matrices
+    Vector v_r1 = cross(a2,a3)/ length(cross(a2,a3));
+    Vector v_r3 = r*a3;
+    Vector v_r2 = cross(v_r3,v_r1);
+
+//    std::cout << v_r1 << " v_r1" << std::endl;
+//    std::cout << v_r2 << " v_r2" << std::endl;
+//    std::cout << v_r3 << " v_r3" << std::endl;
+
+    Matrix K(3, 3, 0.0);
+    K.set_row(0, {aa, -aa*(cos(theta)/sin(theta)),u0});
+    K.set_row(1, {0, bb/sin(theta),v0});
+    K.set_row(2, {0, 0, 1});
+
+    std::cout << K << " matrix K" << std::endl;
 
     std::cout << "\n\tTODO: After you implement this function, please return 'true' - this will trigger the viewer to\n"
                  "\t\tupdate the rendering using your recovered camera parameters. This can help you to visually check\n"
